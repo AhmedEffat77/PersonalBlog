@@ -1,0 +1,41 @@
+/* Share Buttons */
+
+.share-btn-container {
+    background: #fff;
+    display: block;
+    position: relative;
+    float: right;
+    margin-left:35%;
+    margin-bottom:50%;
+    padding: 1px;
+}
+  .share-btn-container a i {
+    font-size: 20px;
+  }
+  .share-btn-container a {
+    margin: 5px 0;
+    transition: 500ms;
+  }
+  .share-btn-container .fa-facebook {
+    color: #3b5998;
+  }
+  
+.share-btn-container .fa-twitter {
+    color: #1da1f2;
+  }
+  
+  .share-btn-container .fa-linkedin {
+    color: #0077b5;
+  }
+  
+  .share-btn-container .fa-pinterest {
+    color: #bd081c;
+  }
+  
+  .share-btn-container .fa-whatsapp {
+    color: #25d366;
+  }
+  
+  .share-btn-container a:hover {
+    transform: scale(1.2);
+  }
